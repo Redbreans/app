@@ -1,0 +1,273 @@
+#tab-bar.demo {
+    display: flex;
+    flex-direction: column;
+}
+
+#tab-bar .demoName {
+    height: 0.8rem;
+}
+
+#tab-bar .demo-preview-item,
+#tab-bar .demo-preview-item .am-tab-bar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#tab-bar .demo-preview-item .am-tab-bar {
+    background-color: white;
+}
+
+.am-tab-bar-bar {
+    /* tabbar */
+    /* background-color: darkgrey; */
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-around
+}
+
+.am-tab-bar-tab {
+    /* tabbar每一item */
+    width: 20%;
+}
+
+.am-tab-bar-tab .am-tab-bar-tab-icon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.am-tab-bar-tab .am-tab-bar-tab-icon img {
+    width: 60%;
+    height: 2rem;
+}
+
+.am-tab-bar-tab p {
+    margin-top: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.App {
+    width: 100%;
+}
+
+#root {
+    width: 100%;
+}
+
+.am-tabs-tab-bar-wrap {
+    position: fixed;
+    bottom: 0px;
+    z-index: 1;
+}
+
+.App .homeLb,
+.homeLb .Carousel,
+.homeLb .Carousel div,
+.homeLb .Carousel div ul,
+.homeLb .Carousel div ul li,
+    {
+    width: 100%;
+}
+
+.homeLb .Carousel div ul li div {
+    width: 100%;
+}
+
+.homeLb .Carousel div ul li div img {
+    width: 100%;
+    height: 110px;
+}
+
+.wild {
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.textBtn {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    /* //上下居中 */
+}
+
+.textBtn p {
+    color: #ff0066;
+    font-size: 16px;
+    height: 2rem;
+    line-height: 2rem;
+}
+
+.textBtn button {
+    border: 1px solid #ff0066;
+    font-size: 16px;
+    border-radius: 7px;
+    color: #ff0066;
+    background-color: white;
+    height: 1.5rem;
+}
+
+.text {
+    font-size: 14px;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+.img {
+    width: 100%;
+    display: flex;
+    justify-content: space-around
+}
+
+.img img {
+    width: 40%;
+    height: 12rem;
+}
+
+.fresh {
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.freshImg {
+    width: 100%;
+    display: flex;
+    justify-content: space-around
+}
+
+.freshImg img {
+    width: 45%;
+    height: 12rem;
+}
+
+.freshImg .freshRight {
+    width: 42%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.freshRight {
+    position: relative;
+}
+
+.freshRight>img {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 5rem;
+    z-index: 0;
+}
+
+#samllImg {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    box-shadow: slategray;
+    display: flex;
+    justify-content: space-around;
+    z-index: 0;
+}
+
+.freshImg .freshRight div img {
+    width: 50%;
+    height: 4.5rem;
+}
+
+.freshImg .freshRight div p {
+    position: absolute;
+    left: 0;
+    top: 4rem;
+    color: darkgrey;
+    font-size: 7px;
+    width: 100%;
+}
+
+.sport {
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+.imgSport {
+    width: 100%;
+    margin-top: -2rem;
+    padding-bottom: 5rem
+}
+
+.imgSport .bottomImg {
+    width: 100%;
+    display: flex;
+    justify-content: space-around
+}
+
+.imgSport .top img {
+    width: 45%;
+    height: 8rem;
+}
+
+.imgSport .top {
+    width: 100%;
+    display: flex;
+    justify-content: space-around
+}
+
+.imgSport .top div {
+    width: 48%;
+}
+
+.imgSport .top div img {
+    width: 100%;
+    height: 7rem;
+}
+
+.imgSport .top div p {
+    color: darkgrey;
+    font-size: 7px;
+    width: 100%;
+}
+
+.imgSport .bottomImg img {
+    width: 90%;
+    height: 10rem;
+}
+
+/* 新品css */
+
+.typeLIst {
+    width: 100%;
+    padding-bottom: 3rem;
+}
+.banImg{
+    width: 100%;
+    padding-bottom: 2rem
+}
+.banImg img{
+    width: 100%;
+}
+.typeLIst .titleImg {
+    width: 100%;
+    display: -webkit-flex;
+justify-content: space-around
+}
+
+#leftImg{
+    width: 50%;
+}
+
+.typeLIst .titleImg #leftImg img {
+    width: 100%;
+    
+}
+.typeLIst .titleImg .tRight{
+ width: 40%;
+}
+.typeLIst .titleImg .tRight img{
+    width: 100%;
+    margin-top: 1.3rem
+}
+.tilteName{
+    color: #ff0066;
+    font-size: 16
+}
